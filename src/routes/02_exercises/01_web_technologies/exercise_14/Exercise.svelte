@@ -2,6 +2,8 @@
   let current = "";
 </script>
 
+<p class:highlighted={color: yellow}</p>
+
 <!-- We will cover buttons later on! -->
 <button class="btn btn-secondary" on:click={() => (current = "messi")}>
   Messi
